@@ -3,9 +3,9 @@
 (require
  "private/core.rkt"
  "private/serialize.rkt"
- "private/dserialize.rkt")
+ "private/deserialize.rkt")
 
-(require
+(provide
  (all-from-out "private/core.rkt")
  (all-from-out "private/serialize.rkt")
- (all-from-out "private/dserialize.rkt"))
+ (all-from-out "private/deserialize.rkt"))
